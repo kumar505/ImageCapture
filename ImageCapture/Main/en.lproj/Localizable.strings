@@ -1,0 +1,194 @@
+/* 
+  Localizable.strings
+  ImageCapture
+
+  Created by Challa Karthik on 23/10/18.
+  Copyright © 2018 ideabytes. All rights reserved.
+*/
+
+// Uncategorized
+"FAILED_PARSING_DATA" = "Failed to parse server response";
+"FAILED_CLOUD_CALL" = "Failed to communicate with cloud";
+"MACHINE_NOT_FOUND" = "Vending machine not found!";
+
+// Login strings
+"EMPTY_PASSWORD" = "Password cannot be empty";
+"EMPTY_EMAIL_ID" = "EmailId cannot be empty";
+"FAILED_LOGIN" = "Failed to login";
+"USER_NOT_ALLOWED" = "User not allowed";
+
+// Internet
+"NO_INTERNET" = "Please check your Internet connection and try again";
+
+// Warnings
+"SIGN_OUT_WARNING" = "Are you sure, you want to Sign Out ?";
+
+// Labels
+"DONE" = "Done";
+"OK" = "OK";
+"SIGN_OUT" = "Sign Out";
+"CANCEL" = "Cancel";
+"EDIT_PROFILE" = "Edit Profile";
+"UPLOADING" = "Uploading..";
+"LOADING" = "Loading...";
+"UPDATING" = "Updating...";
+"SLICE_TYPE" = "Slice Type";
+"COST" = "Cost";
+"CREATE" = "Create";
+"RADIUS" = "Radius";
+"ALL" = "All";
+"MI" = "Mi";
+"ZONE_NAME" = "Zone Name";
+"ADDRESS" = "Address";
+
+// Machines screen
+"FAILED_TO_GET_VENDING_MACHINES" = "Failed to get Vending Machines from cloud";
+"VENDING_MACHINES_NOT_AVAILABLE" = "Vending Machines are not available in this location.";
+
+// Tasks Screen
+"NO_TASKS" = "No tasks available";
+"FAILED_UPDATE_TASK" = "Failed to update task";
+"TASK_UPDATED" = "Task updated successfully";
+"TASK_COMPLETE" = "Task completed";
+"TASK_ACCEPTED" = "Task is accepted successfully";
+"TASK_NOT_ACCESSIBLE" = "Task is not accessible";
+"TASK_NOT_ACCESSIBLE_EITHER_VM" = "Either task Accepted by other user or vending machine moved out of zone";
+"TASK_NOT_ACCESSIBLE_EITHER_USER" = "Either task Accepted by other user or user moved out of zone";
+"TASK_ALREADY_ACCEPTED" = "Task is already accepted";
+"ACCEPT_TASK" = "Accept";
+"WORK_TASK" = "Start Working";
+"TASK_DETAILS" = "Task Details";
+"VM_DETAILS" = "Vending Machine Details";
+"USER_DETAILS" = "User Details";
+"REFILL_STATUS" = "Refill Status";
+"FAILED_TO_GET_TASKS" = "Failed to retrieve tasks";
+
+// Refiller Tasks Screen
+"PRODUCT" = "Product";
+"CAPACITY" = "Capacity";
+"STOCK_LEFT" = "Stock Left";
+"STATUS" = "Status";
+"CANISTER" = "Canister";
+"LEFT" = "Left";
+"TYPE" = "Type";
+"ISSUE_DETAILS" = "Issue Details";
+
+// Alert
+"ERROR" = "Error!";
+"SEEK_GPS_PERMISSION" = "GPS access is restricted. In order to use tracking, please enable GPS in the Settigs app under Privacy, Location Services.";
+"REDIRECT_TO_SETTINGS" = "Go to Settings now";
+
+// User management
+"OLD_EMPTY_PASSWORD" = "Old password should not be empty";
+"CURRENT_EMPTY_PASSWORD" = "Current password should not be empty";
+"CORRECT_PASSWORD" = "Please enter correct password";
+"EMPTY_PASSWORD" = "Password should not be empty";
+"PASSWORD_DO_NOT_MATCH" = "Password entered by you do not match";
+"PASSWORD_MIN_LENGTH" = "Minimum length of password should be 4 characters";
+"FAILED_TO_CHANGE_PASSWORD" = "Failed to change password";
+"PASSWORD_RESET_SUCCESSFUL" = "Password reset successfully, Please login with new password";
+"PASSWORD_RESET_FAILED" = "Failed to reset password";
+"FAILED_TO_UPDATE_PROFILE" = "Failed to update profile";
+"FAILED_FINDING_USER" = "Failed to find user";
+"USER_SUSPENDED" = "Your account has been suspended. Please contact Operator.";
+"ROLE_UPDATED" = "Your role/level has been changed. Please Login again.";
+"WRONG_CREDENTIALS" = "Invalid credentials provided";
+"SESSION_EXPIRED" = "Your session has been expired, Please login again";
+"PROFILE" = "Profile";
+"EDIT" = "Edit";
+"FIRST_NAME" = "First Name";
+"LAST_NAME" = "Last Name";
+"USER_NAME" = "User Name";
+"USER_ROLE" = "User Role";
+"TECHNICAL_LEVEL" = "Technical Level";
+
+// Vending machine
+"ONBOARD_SUCCESS" = "Vending machine added successfully";
+"ONBOARD_FAILED" = "Failed to add vending machine";
+"MACHINE_EXISTS" = "Vending machine already exists";
+"MODEL_LIST_TITLE" = "Model List";
+"NO_MODELS" = "No Models Available";
+"NO_PRODUCTS" = "No Products Available";
+"FAILED_TO_LOAD_MODELS" = "Failed to load models";
+"EMPTY_VENDOR_THING_ID" = "Please enter Vendor Thing Id";
+"INVALID_VENDOR_THING_ID" = "Invalid Vendor Thing Id provided";
+"EMPTY_PRODUCT" = "Product can't be empty";
+"EMPTY_COST" = "Cost can't be zero";
+"EMPTY_QUANTITY" = "Quantity can't be zero";
+"CHOOSE_SLICE_TYPE" = "Choose Slice Type";
+"EMPTY_VENDING_MACHINE_NAME" = "Please enter name";
+"EMPTY_VENDING_MACHINE_ADDRESS" = "Please enter address";
+"EMPTY_REVENUE" = "Please enter revenue";
+"ZERO_REVENUE" = "Revenue cannot be zero";
+"ADDRESS_NOT_FOUND" = "Address not found";
+"FAILED_FIND_ADDRESS" = "Failed to find address";
+"STREET" = "Street";
+"MALL" = "Mall";
+"STADIUM" = "Stadium";
+"FILTERED_LOC" = "Filtered location";
+"NO_PRICE_GROUPS" = "No price groups available";
+"NO_MORE_MACHINES" = "No more Vending Machines available";
+"NO_MACHINES" = "No machines available";
+"NO_CANISTERS" = "No canisters available";
+"PRICE_APPLIED" = "Price applied for available products";
+"NO_PRICE_APPLIED" = "No products found in selected cost list";
+
+// Task Status
+"TASK_PRIORITY_HIGH" = "High";
+"TASK_PRIORITY_MED" = "Medium";
+"TASK_PRIORITY_LOW" = "Low";
+
+// Refill Status
+"NEARING_REFILL" = "Nearing Refill";
+"REFILL_NEEDED" = "Refill Needed";
+"EMPTY" = "Empty";
+
+// Notification Messages
+"REFILL_REQUEST_RN" = "%@ - Refill Needed";
+"REFILL_REQUEST_NR" = "%@ - Nearing Refill";
+"REFILL_REQUEST_EMPTY" = "%@ - Empty";
+"REFILL_REQUEST_STOCKED" = "%@ - Stocked";
+"TECHNICAL_REQUEST_RAISED" = "%@ - %@ issue raised";
+"TECHNICAL_REQUEST_SOLVED" = "%@ - %@ issue solved";
+"REFILL_TASK_ASSIGNED" = "%@ - Refill task is assigned";
+"TECHNICAL_TASK_ASSIGNED" = "%@ - Technical task is assigned";
+"USER_DETAILS_UPDATED" = "Your role/level has been changed";
+"USER_SUSPENDED" = "User is suspended";
+"USER_DELETED" = "User deleted";
+
+// Util Messages
+"ABOUT" = "About";
+"NO_DATA" = "No data available";
+"CHOOSE_MAP" = "Choose a map";
+"GOOGLE_MAP" = "Google Maps";
+"APPLE_MAP" = "Apple Maps";
+"FILTER" = "Filter";
+"ADD_PHOTO" = "Add Photo";
+"TAKE_PHOTO" = "Take Photo";
+"CHOOSE_LIBRARY" = "Choose from Library";
+"NO_CAMERA" = "No Camera available";
+"NO_LIBRARY" = "No Library available";
+"NO_ISSUES" = "No issues available";
+"LOADING_ENV" = "Loading Environments..";
+"AUTHENTICATING" = "Authenticating..";
+"FETCHING_LOCATION" = "Fetching location..";
+"VERSION_NOT_MATCHING" = "Selected environment application version do not match with local version. Please use other";
+"ENV_DISABLED" = "Selected environment is disabled. Please use other";
+"SELECT_ENV" = "Please select appropriate environment";
+"USER_SUSPENDED_MESSAGE" = "Your account has been suspended. Please contact operator.";
+"USER_DELETED_MESSAGE" = "Your account has been deleted. Please contact operator.";
+"NO_EMAIL_CONFIGURATION_FOUND" = "Your device could not send e-mail.  Please check e-mail configuration and try again.";
+"MAIL_CANCELLED" = "Cancelled mail";
+"MAIL_FAILED" = "Mail sending failed";
+"MAIL_SAVED_TO_DRAFTS" = "Mail saved to drafts";
+"MAIL_SENT" = "Mail sent";
+
+// Zones
+"NO_ZONES_FOUND" = "You are not assigned to any zone";
+
+// App related
+"NO_CATEGORY" = "Please choose a category";
+"NO_SUBCATEGORY" = "Please choose a sub-category";
+"NO_IMAGE_SELECTED" = "Please select a image";
+"NO_RATING" = "Please choose a rating";
+"NO_COMMENT" = "Please provide a comment";
