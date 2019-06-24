@@ -124,7 +124,7 @@
 		9E412C3A217F3A8B0049CC6A = {
 			isa = PBXGroup;
 			children = (
-				9E412C45217F3A8B0049CC6A /* ImageCapture */,
+				9E412C45217F3A8B0049CC6A /* ImageCaptureMain */,
 				9E412C5D217F3A8C0049CC6A /* ImageCaptureTests */,
 				9E412C68217F3A8C0049CC6A /* ImageCaptureUITests */,
 				9E412C44217F3A8B0049CC6A /* Products */,
@@ -143,7 +143,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9E412C45217F3A8B0049CC6A /* ImageCapture */ = {
+		9E412C45217F3A8B0049CC6A /* ImageCaptureMain */ = {
 			isa = PBXGroup;
 			children = (
 				9E4F5F92217F57C9001738D0 /* Main */,
@@ -152,7 +152,7 @@
 				9E4F5F8F217F57A4001738D0 /* Models */,
 				9E4F5F91217F57BB001738D0 /* Utils */,
 			);
-			path = ImageCapture;
+			path = ImageCaptureMain;
 			sourceTree = "<group>";
 		};
 		9E412C5D217F3A8C0049CC6A /* ImageCaptureTests */ = {
